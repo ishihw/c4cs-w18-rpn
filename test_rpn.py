@@ -29,6 +29,6 @@ class TestBasics(unittest.TestCase):
 	def test_cpy(self):
 		result = rpn.calculate("1 cpy -")
 		self.assertEqual(0,result)
-	def test_fact(self):
+	def test_exp(self):
 		result = rpn.calculate("2 3 ^")
 		self.assertEqual(8,result)
